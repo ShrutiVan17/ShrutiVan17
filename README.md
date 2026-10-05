@@ -81,7 +81,7 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 
 ## Experience
 
-**AI/ML Engineer · Verizon** · Dallas, TX · *May 2024 – Present*
+**AI/ML Engineer · Verizon** · Dallas, TX · *Aug 2024 – Present*
 - Conversational and generative AI with Dialogflow CX/ES, Azure OpenAI, and RAG for billing, technical support, and account servicing
 - FastAPI + XGBoost inference endpoints for real-time fraud detection, with SHAP explainability
 - BERT-based embeddings for product search and ranking; MLOps with MLflow, Docker, GitHub Actions, and AWS (SageMaker, ECS, S3)
