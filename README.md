@@ -18,14 +18,17 @@ I build AI applications that retrieve evidence, expose their reasoning inputs, a
 **Explore my work:** [Portfolio](https://shrutivan17.github.io/portfolio/) · [GitHub projects](https://github.com/ShrutiVan17?tab=repositories)  
 **Discuss a role:** [Email me](mailto:s.vanparia8@gmail.com?subject=AI%20Engineering%20Opportunity) · [Connect on LinkedIn](https://www.linkedin.com/in/shruti-17s/)
 
-### Start with RecallRadar
+### Start with my recent work
 
-[Try the guided demo](https://recallradar-ofegn2yso5jbkc3tpgejhm.streamlit.app/) · [Read the code and engineering decisions](https://github.com/ShrutiVan17/RecallRadar#engineering-decisions) · [See the architecture](https://github.com/ShrutiVan17/RecallRadar/blob/main/docs/ARCHITECTURE.md)
+**[Policy Switchboard](https://github.com/ShrutiVan17/policy-switchboard)** — customer-specific MiniLM LoRA adapters, deterministic business rules, trusted ticket context, and evaluation gates. [App recording](https://github.com/ShrutiVan17/policy-switchboard/blob/main/docs/assets/app-demo.gif) · [Architecture and audit](https://github.com/ShrutiVan17/policy-switchboard/blob/main/docs/ARCHITECTURE_AUDIT.md)
 
-- **Problem:** determine whether a household product matches an official recall notice.
-- **Approach:** retrieve CPSC notices, verify model/lot/UPC evidence, suppress ambiguous matches, and prepare an auditable decision.
-- **Engineering judgment:** deterministic matching rules handle critical checks; AI supports orchestration and explanations; a person approves or dismisses the action.
-- **Easy to review:** the synthetic guided demo requires no AI key. Live results depend on CPSC coverage and availability.
+Recorded results on a new frozen 66-case synthetic test: LoRA **66/66**, zero unsafe approvals; matched frozen-encoder baseline **62/66**, one unsafe approval. These measure a hybrid classifier with facts computed outside the neural model. Small synthetic test; neural delivery remains in shadow research mode.
+
+**[ClearDrop](https://github.com/ShrutiVan17/cleardrop)** — browser video processing, local scene-change checks, and human-confirmed doorway reviews. [Try the public demo](https://cleardrop-shrutivan17.onrender.com/) · [Engineering case study](https://github.com/ShrutiVan17/cleardrop/blob/main/docs/engineering-case-study.md)
+
+A camera disconnect leaves removal unknown. Prototype only; scene change is not parcel recognition or a guarantee of physical clearance. Free hosting may take about a minute to wake.
+
+**[RecallRadar](https://github.com/ShrutiVan17/RecallRadar)** — retrieve CPSC notices, verify model/lot/UPC evidence, suppress ambiguous matches, and prepare actions for human review. [Try the key-free synthetic guided demo](https://recallradar-ofegn2yso5jbkc3tpgejhm.streamlit.app/) · [Architecture](https://github.com/ShrutiVan17/RecallRadar/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
@@ -39,14 +42,53 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 
 ---
 
-## Featured projects
+## Repository directory
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[RecallRadar](https://github.com/ShrutiVan17/RecallRadar)**<br><sub>Human-in-the-loop product recall agent</sub> | Checks household products against the official U.S. CPSC recall feed and verifies exact model, lot, and UPC evidence through a four-stage workflow (observe → investigate → verify → escalate) with approve/dismiss gates. | Python · Strands Agents SDK · Gemini · Amazon Bedrock · Streamlit · Pytest · Docker |
-| **[GhostFrame AI](https://github.com/ShrutiVan17/ghosframe.ai)**<br><sub>Agentic media provenance verifier</sub> | Investigates whether a movie trailer presented as official is backed by public evidence, using Gemini to plan the investigation and Parallel Search to retrieve supporting and contradictory sources. | Python · FastAPI · Vertex AI Gemini · Parallel Search API · Pydantic · Docker |
-| **[ParSafe](https://github.com/ShrutiVan17/parsafe)**<br><sub>Retrieval-grounded parking decision assistant</sub> | Ranks parking options with Python retrieval logic, with an optional Gemini layer for grounded answers and a deterministic non-LLM path. | Python · FastAPI · React · Gemini · Docker · GitHub Actions |
-| **[Dental Operations Strategist](https://github.com/ShrutiVan17/dental-operations-app)**<br><sub>No-show and revenue what-if planner</sub> | Serves no-show predictions and what-if scenarios for clinic scheduling, combining model scores with capacity and revenue rules for explainable outputs. | Python · scikit-learn · FastAPI · Streamlit |
+All **14 public repositories**, grouped by the work they demonstrate. Recent AI engineering work appears first.
+
+### Model adaptation & evaluation
+
+| Repository | What to inspect |
+|---|---|
+| **[Policy Switchboard](https://github.com/ShrutiVan17/policy-switchboard)** | MiniLM, customer LoRA adapters, hybrid policy classification, frozen synthetic evaluation; shadow research only. |
+
+### AI agents & retrieval
+
+| Repository | What to inspect |
+|---|---|
+| **[RecallRadar](https://github.com/ShrutiVan17/RecallRadar)** | Recall evidence verification with human approval. |
+| **[GhostFrame AI](https://github.com/ShrutiVan17/ghosframe.ai)** | Trailer provenance investigation with Gemini and Parallel Search. |
+| **[ParSafe](https://github.com/ShrutiVan17/parsafe)** | Parking ranking and retrieval with an optional Gemini answer layer. |
+
+### Browser video & human review
+
+| Repository | What to inspect |
+|---|---|
+| **[ClearDrop](https://github.com/ShrutiVan17/cleardrop)** | Local scene-change monitoring, phone-camera tests, and explicit removal review. |
+
+### Predictive ML & decision analytics
+
+| Repository | What to inspect |
+|---|---|
+| **[Dental Operations Strategist](https://github.com/ShrutiVan17/dental-operations-app)** | No-show predictions and clinic what-if planning. |
+| **[ChurnSignal](https://github.com/ShrutiVan17/telecom)** | Churn model comparison, data-quality contract, and economic action ranking. |
+| **[StaySignal](https://github.com/ShrutiVan17/staysignal_hotel)** | Chronological cancellation model and overbooking scenarios using synthetic data. |
+| **[FreightPlus](https://github.com/ShrutiVan17/FreightPlus)** | Logistics control tower and shipment risk ranking using synthetic data. |
+| **[Climate Risk Copilot](https://github.com/ShrutiVan17/climate-risk)** | Clustering, anomaly detection, and stress scenarios; original dataset not included. |
+
+### Product prototypes & utilities
+
+| Repository | What to inspect |
+|---|---|
+| **[FreshTurn](https://github.com/ShrutiVan17/food_waste)** | Browser-local restaurant inventory and surplus marketplace prototype. |
+| **[YouTube Comment Downloader](https://github.com/ShrutiVan17/Youtube-comment-project)** | Utility/reference repository for exporting YouTube comments. |
+
+### Portfolio & professional profile
+
+| Repository | What to inspect |
+|---|---|
+| **[Portfolio website](https://github.com/ShrutiVan17/portfolio)** | Recent work, filterable categories, demos, and professional contact. |
+| **[GitHub profile](https://github.com/ShrutiVan17/ShrutiVan17)** | This repository directory and professional overview. |
 
 ---
 
