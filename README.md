@@ -1,5 +1,5 @@
 <h1 align="center">Shruti Vanparia</h1>
-<h3 align="center">AI/ML Engineer · Generative AI · RAG · Agentic AI · Conversational AI</h3>
+<h3 align="center">AI/ML Engineer | Reliable LLM Applications, RAG & AI Agents</h3>
 
 <p align="center">
   <a href="https://shrutivan17.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-1d5c63?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
@@ -8,6 +8,24 @@
 </p>
 
 <p align="center">Plano, TX · M.S. Business Analytics & Artificial Intelligence, UT Dallas</p>
+
+---
+
+## Hiring: AI/ML and Generative AI Engineering
+
+I build AI applications that retrieve evidence, expose their reasoning inputs, and keep consequential actions under human review.
+
+**Explore my work:** [Portfolio](https://shrutivan17.github.io/portfolio/) · [GitHub projects](https://github.com/ShrutiVan17?tab=repositories)  
+**Discuss a role:** [Email me](mailto:s.vanparia8@gmail.com?subject=AI%20Engineering%20Opportunity) · [Connect on LinkedIn](https://www.linkedin.com/in/shruti-17s/)
+
+### Start with RecallRadar
+
+[Try the guided demo](https://recallradar-ofegn2yso5jbkc3tpgejhm.streamlit.app/) · [Read the code and engineering decisions](https://github.com/ShrutiVan17/RecallRadar#engineering-decisions) · [See the architecture](https://github.com/ShrutiVan17/RecallRadar/blob/main/docs/ARCHITECTURE.md)
+
+- **Problem:** determine whether a household product matches an official recall notice.
+- **Approach:** retrieve CPSC notices, verify model/lot/UPC evidence, suppress ambiguous matches, and prepare an auditable decision.
+- **Engineering judgment:** deterministic matching rules handle critical checks; AI supports orchestration and explanations; a person approves or dismisses the action.
+- **Easy to review:** the synthetic guided demo requires no AI key. Live results depend on CPSC coverage and availability.
 
 ---
 
@@ -32,7 +50,9 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 
 ---
 
-## Tech stack
+<details>
+<summary><strong>Full technology stack</strong></summary>
+
 
 **Generative & Agentic AI**<br>
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
@@ -78,6 +98,8 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 ![Guardrails](https://img.shields.io/badge/Guardrails-555555?style=flat-square)
 
 ---
+
+</details>
 
 ## Experience
 
