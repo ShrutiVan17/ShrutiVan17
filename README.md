@@ -7,7 +7,7 @@
   <a href="mailto:s.vanparia8@gmail.com"><img src="https://img.shields.io/badge/Email-15212b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p align="center">Plano, TX · M.S. Business Analytics & Artificial Intelligence, UT Dallas</p>
+<p align="center">Dallas, TX · Open to relocation · M.S. Business Analytics & Artificial Intelligence, UT Dallas</p>
 
 ---
 
@@ -33,7 +33,7 @@ I build AI applications that retrieve evidence, expose their reasoning inputs, a
 
 I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic workflows, conversational AI, and machine learning APIs running in production. I have 3+ years of hands-on experience with Python, FastAPI, LangChain, LangGraph, Azure OpenAI, Gemini, Amazon Bedrock, and Dialogflow CX.
 
-- 🔭 **Now:** AI/ML Engineer at **Verizon**, working on conversational and generative AI for billing, support, and account-servicing workflows
+- 🔭 **Now:** Contract AI/ML Engineer at **Verizon**, working on conversational and generative AI for billing, support, and account-servicing workflows
 - 🧠 **Focus:** retrieval and search, LLM integration, tool calling and structured outputs, and evaluation that keeps AI reliable in production
 - 🛠️ **Care about:** RAG evaluation, guardrails, latency, and monitoring, the parts that make AI usable for real teams
 
@@ -103,12 +103,12 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 
 ## Experience
 
-**AI/ML Engineer · Verizon** · Dallas, TX · *Aug 2024 – Present*
+**AI/ML Engineer (Contract) · Verizon** · Dallas, TX · *Aug 2024 – Present*
 - Conversational and generative AI with Dialogflow CX/ES, Azure OpenAI, and RAG for billing, technical support, and account servicing
 - FastAPI + XGBoost inference endpoints for real-time fraud detection, with SHAP explainability
 - BERT-based embeddings for product search and ranking; MLOps with MLflow, Docker, GitHub Actions, and AWS (SageMaker, ECS, S3)
 
-**Software Engineer · Shreeji Plast Pvt. Ltd** · Gujarat, India · *Apr 2023 – Jul 2024*
+**Software Engineer · Shreeji Plast Pvt. Ltd** · Gujarat, India · *Jan 2023 – May 2024*
 - Java Spring Boot REST APIs for telecom and BFSI clients
 - ML intent classification for chatbot services; lifted F1-score from 0.74 to 0.82 with TF-IDF feature engineering
 - Reduced chatbot fallback rates by 10–12% through better training data and preprocessing
