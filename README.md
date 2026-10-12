@@ -157,6 +157,12 @@ All **14 public repositories**, grouped by the work they demonstrate. Recent AI 
 
 ---
 
+## Certifications
+
+- **SQL (Advanced) — HackerRank** · Credential ID: `7d32e3d29607` · [Verify certificate](https://www.hackerrank.com/certificates/7d32e3d29607)
+
+---
+
 ## Education
 
 - **M.S., Business Analytics and Artificial Intelligence**, The University of Texas at Dallas (Naveen Jindal School of Management), *May 2026*
