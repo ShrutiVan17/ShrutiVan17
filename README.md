@@ -1,5 +1,5 @@
 <h1 align="center">Shruti Vanparia</h1>
-<h3 align="center">AI/ML Engineer | Reliable LLM Applications, RAG & AI Agents</h3>
+<h3 align="center">Generative AI Engineer | LLM Applications, RAG & AI Agents</h3>
 
 <p align="center">
   <a href="https://shrutivan17.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-1d5c63?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
@@ -44,7 +44,7 @@ I build and support enterprise AI applications: LLM apps, RAG pipelines, agentic
 
 ## Repository directory
 
-All **14 public repositories**, grouped by the work they demonstrate. Recent AI engineering work appears first.
+My public repositories, grouped by the work they demonstrate. Recent AI engineering work appears first.
 
 ### Model adaptation & evaluation
 
