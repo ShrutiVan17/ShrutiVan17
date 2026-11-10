@@ -166,7 +166,7 @@ My public repositories, grouped by the work they demonstrate. Recent AI engineer
 ## Education
 
 - **M.S., Business Analytics and Artificial Intelligence**, The University of Texas at Dallas (Naveen Jindal School of Management), *May 2026*
-- **B.S., Data Science**, Indus University, Ahmedabad, *May 2024*
+- **Bachelor of Science (3-year degree), Data Science**, Indus University, *May 2024*
 
 ---
 
